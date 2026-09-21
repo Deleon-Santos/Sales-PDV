@@ -8,7 +8,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         users = [
-            ("admin@caixa.local", "admin", "Admin@12345", User.Role.ADMIN, True, True),
+            ("admin@caixa.com", "admin", "admin12345", User.Role.ADMIN, True, True),
             ("gerente@caixa.local", "gerente", "Gerente@12345", User.Role.MANAGER, True, False),
             ("caixa@caixa.local", "caixa", "Caixa@12345", User.Role.CASHIER, True, False),
         ]
